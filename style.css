@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+body p { 
+    font-family: "Nunito", sans-serif;
+}
+
 header {
     margin-bottom: 5em;
 
@@ -78,7 +82,7 @@ nav ul {
 footer {
 
     border-top: 1px solid #1D438A;
-    margin-top: 60em;
+    margin-top: 80em;
     text-align: left;
     display: flex;
     justify-content: space-around;
@@ -121,7 +125,7 @@ header nav a {
 
 .active {
     text-decoration: underline;
-    color:#F2B705;
+    color: #F2B705;
 }
 
 .womenp,
@@ -130,17 +134,19 @@ header nav a {
     background-color: #FAE0A6;
 }
 
-.womenp footer, .menp footer {
-    margin-top: 230em;
+.womenp footer,
+.menp footer {
+    margin-top: 250em;
 }
+
 .eventsp footer {
-    margin-top: 160em;
+    margin-top: 170em;
 }
 
 section ul {
     display: flex;
     justify-content: space-around;
-    margin:3em;
+    margin: 3em;
     font-size: 30px;
 }
 
